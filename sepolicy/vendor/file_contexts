@@ -50,6 +50,9 @@
 # Powershare
 /vendor/bin/hw/vendor\.lineage\.powershare@1\.0-service\.xiaomi u:object_r:hal_lineage_powershare_default_exec:s0
 
+# Sensors
+/(vendor|system/vendor)/bin/disp2slpi u:object_r:vendor_disp2slpi_exec:s0
+
 # Thermal
 /sys/class/thermal/thermal_zone87/temp u:object_r:sysfs_thermal:s0
 
