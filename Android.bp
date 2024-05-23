@@ -9,6 +9,8 @@ soong_namespace {
         "hardware/qcom-caf/bootctrl",
         "hardware/xiaomi",
         "hardware/lineage/interfaces/power-libperfmgr",
+        "hardware/google/interfaces",
+        "hardware/google/pixel",
         "hardware/qcom-caf/common/libqti-perfd-client",
         "vendor/qcom/opensource/commonsys-intf/display",
     ],
